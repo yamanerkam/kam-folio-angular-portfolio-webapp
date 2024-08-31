@@ -12,6 +12,7 @@ import { ProjectsComponent } from './pages/projects/projects.component';
 import { UsefulLinksComponent } from './pages/useful-links/useful-links.component';
 import { ContactMeComponent } from './pages/contact-me/contact-me.component';
 import { NotFoundComponent } from './pages/not-found/not-found.component';
+import { FooterModule } from './components/footer/footer.module';
 
 @NgModule({
   declarations: [
@@ -27,7 +28,8 @@ import { NotFoundComponent } from './pages/not-found/not-found.component';
     BrowserModule,
     AppRoutingModule,
     NavbarModule,
-    MenubarModule
+    MenubarModule,
+    FooterModule
   ],
   providers: [],
   bootstrap: [AppComponent]
