@@ -1,4 +1,5 @@
 .navbar {
+    margin-top: 0.5%;
     backdrop-filter: blur(10px);
     display: flex;
     flex-direction: row;
@@ -14,8 +15,6 @@
     text-align: center !important;
     display: flex;
 }
-
-
 
 
 .main-part {
@@ -56,12 +55,6 @@
     gap: 5px;
 }
 
-.btn {
-    margin-top: 0px;
-    background-color: transparent;
-    border: none;
-    cursor: pointer;
-}
 
 @media (max-width: 768px) {
     .navbar {
@@ -82,10 +75,7 @@
         /* Adjust margin */
     }
 
-    .btn {
-        margin-top: 0px;
-        /* Reset margin */
-    }
+
 }
 
 @media (max-width: 480px) {
@@ -108,8 +98,33 @@
         /* Further adjust margin */
     }
 
+}
+
+.btn {
+    padding: 0;
+    margin-top: -12px;
+    cursor: pointer;
+    transition: background-color 0.3s ease, transform 0.2s ease;
+}
+
+
+
+.btn:active {
+    transform: scale(1);
+}
+
+@media (max-width: 768px) {
     .btn {
-        margin-top: 0px;
-        /* Reset margin */
+        margin-top: 0;
+        font-size: 0.9em;
+        /* Adjust font size for smaller screens */
+    }
+}
+
+@media (max-width: 480px) {
+    .btn {
+        margin-top: 0;
+        font-size: 0.8em;
+        /* Further adjust font size for smaller screens */
     }
 }
