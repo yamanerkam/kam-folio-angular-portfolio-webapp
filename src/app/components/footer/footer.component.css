@@ -16,6 +16,8 @@
 
 .heart {
     color: #3b7aa2;
+    font-weight: 700;
+    text-decoration: none;
 }
 
 .footer-left {

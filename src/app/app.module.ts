@@ -13,6 +13,7 @@ import { UsefulLinksComponent } from './pages/useful-links/useful-links.componen
 import { ContactMeComponent } from './pages/contact-me/contact-me.component';
 import { NotFoundComponent } from './pages/not-found/not-found.component';
 import { FooterModule } from './components/footer/footer.module';
+import { ContactMeModule } from './pages/contact-me/contact-me.module';
 
 @NgModule({
   declarations: [
@@ -21,7 +22,6 @@ import { FooterModule } from './components/footer/footer.module';
     AboutComponent,
     ProjectsComponent,
     UsefulLinksComponent,
-    ContactMeComponent,
     NotFoundComponent,
   ],
   imports: [
@@ -29,7 +29,8 @@ import { FooterModule } from './components/footer/footer.module';
     AppRoutingModule,
     NavbarModule,
     MenubarModule,
-    FooterModule
+    FooterModule,
+    ContactMeModule
   ],
   providers: [],
   bootstrap: [AppComponent]
