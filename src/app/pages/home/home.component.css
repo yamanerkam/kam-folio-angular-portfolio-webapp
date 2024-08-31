@@ -1,0 +1,70 @@
+.hero-section {
+    background-color: #ffffff;
+    color: #424655;
+    padding: 100px 20px;
+    text-align: left;
+}
+
+.hero-content {
+    max-width: 700px;
+    margin: 0 auto;
+}
+
+.hero-content h1 {
+    font-size: 3em;
+    font-weight: bold;
+    margin-bottom: 20px;
+    color: #424655;
+    /* Dark color for better contrast on white */
+}
+
+.hero-content h2 {
+    font-size: 2em;
+    font-weight: 700;
+    color: #3b7aa2;
+    /* Highlight color */
+    margin-bottom: 20px;
+}
+
+.hero-content .highlight {
+    color: #3b7aa2;
+    /* Highlight color */
+}
+
+.hero-content p {
+    font-size: 1.2em;
+    margin-bottom: 40px;
+    color: #424655;
+    /* Slightly lighter than the header for subtlety */
+}
+
+a {
+    border: 2px solid #3b7aa2;
+    color: #3b7aa2;
+    background-color: transparent;
+    padding: 15px 20px;
+    font-size: 1.3rem;
+    cursor: pointer;
+    border-radius: 8px;
+    position: relative;
+    transition: color 0.3s ease;
+    text-decoration: none;
+}
+
+a::after {
+    content: '';
+    position: absolute;
+    left: 0;
+    bottom: 10px;
+    width: 83%;
+    left: 20px;
+    height: 3px;
+    background-color: #3b7aa2;
+    transform: scaleX(0);
+    transition: transform 0.3s ease;
+    transform-origin: left;
+}
+
+a:hover::after {
+    transform: scaleX(1);
+}
