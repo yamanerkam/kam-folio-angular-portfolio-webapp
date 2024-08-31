@@ -4,13 +4,32 @@ import { BrowserModule } from '@angular/platform-browser';
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 
+import { NavbarModule } from './components/navbar/navbar.module';
+import { HomeComponent } from './pages/home/home.component';
+import { MenubarModule } from 'primeng/menubar';
+import { AboutComponent } from './pages/about/about.component';
+import { ProjectsComponent } from './pages/projects/projects.component';
+import { UsefulLinksComponent } from './pages/useful-links/useful-links.component';
+import { ContactMeComponent } from './pages/contact-me/contact-me.component';
+import { NotFoundComponent } from './pages/not-found/not-found.component';
+import { FooterModule } from './components/footer/footer.module';
+
 @NgModule({
   declarations: [
-    AppComponent
+    AppComponent,
+    HomeComponent,
+    AboutComponent,
+    ProjectsComponent,
+    UsefulLinksComponent,
+    ContactMeComponent,
+    NotFoundComponent,
   ],
   imports: [
     BrowserModule,
-    AppRoutingModule
+    AppRoutingModule,
+    NavbarModule,
+    MenubarModule,
+    FooterModule
   ],
   providers: [],
   bootstrap: [AppComponent]

@@ -1,3 +1,31 @@
 @import "primeng/resources/themes/lara-light-blue/theme.css";
 @import "primeng/resources/primeng.css";
 @import "primeicons/primeicons.css";
+
+
+
+body {
+    margin: 0;
+    margin-top: 80px;
+    padding: 0 25vw;
+    display: flex;
+    flex-direction: column;
+}
+
+body.dark-theme .blog-card:hover {
+    background-color: #4a5568;
+}
+
+@media (max-width: 768px) {
+    body {
+        margin-top: 40px;
+        padding: 0 13vw;
+    }
+}
+
+@media (max-width: 480px) {
+    body {
+        margin-top: 40px;
+        padding: 0 6vw;
+    }
+}
