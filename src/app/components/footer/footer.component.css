@@ -16,6 +16,8 @@
 
 .heart {
     color: #3b7aa2;
+    font-weight: 700;
+    text-decoration: none;
 }
 
 .footer-left {
@@ -52,6 +54,8 @@
 
 @media (max-width: 768px) {
     .footer {
+        left: 0;
+        width: 100%;
         font-size: 1em;
         padding: 10px 40px;
         /* Adjust padding for smaller screens */
@@ -65,6 +69,8 @@
 
 @media (max-width: 480px) {
     .footer {
+        left: 0;
+        width: 100%;
         font-size: 0.9em;
         padding: 8px 30px;
         /* Further adjust padding for very small screens */
