@@ -1,5 +1,4 @@
 .navbar {
-    margin-top: 1%;
     backdrop-filter: blur(10px);
     display: flex;
     flex-direction: row;
@@ -7,7 +6,7 @@
     justify-content: space-around;
     position: fixed;
     z-index: 1000;
-    padding-top: 15px;
+    padding-top: 30px;
     padding-bottom: 10px;
     height: 30px;
     top: 0;
