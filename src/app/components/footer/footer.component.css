@@ -1,13 +1,13 @@
 .footer {
-    border-top: 1px solid #3b7aa2;
+    border-top: 1px solid #84b7d7;
     color: #424655;
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 15px 200px;
+    padding: 15px 10%;
     position: fixed;
     bottom: 0;
-    left: 300px;
+    left: 250px;
     width: 70%;
     z-index: 999;
     font-size: 1.2em;
