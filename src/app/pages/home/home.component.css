@@ -5,7 +5,6 @@
     text-align: left;
 }
 
-.hero-content {}
 
 .hero-content h1 {
     font-size: 4rem;
@@ -26,7 +25,7 @@
     display: inline-block;
     vertical-align: baseline;
     color: #3b7aa2;
-    font-size: 2.5rem;
+    font-size: 3rem;
     font-weight: 700;
 }
 
@@ -34,7 +33,6 @@
     font-size: 1.5rem;
     margin-bottom: 40px;
     color: #6a7083;
-    /* Slightly lighter than the header for subtlety */
 }
 
 a {
