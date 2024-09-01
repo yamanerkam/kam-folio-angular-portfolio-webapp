@@ -18,17 +18,19 @@
     /* Dark color for better contrast on white */
 }
 
-.hero-content h2 {
+.hero-content span {
     font-size: 2em;
     font-weight: 700;
-    color: #3b7aa2;
-    /* Highlight color */
+    color: #a3a3a3;
     margin-bottom: 20px;
 }
 
-.hero-content .highlight {
+.typing {
+    display: inline-block;
+    vertical-align: baseline;
     color: #3b7aa2;
-    /* Highlight color */
+    font-size: 2em;
+    font-weight: 700;
 }
 
 .hero-content p {
