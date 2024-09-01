@@ -1,0 +1,128 @@
+.about-container {
+    margin: 0 auto 70px;
+    padding: 20px;
+}
+
+.intro h1 {
+    color: #3b7aa2;
+    font-size: 2em;
+    margin-bottom: 10px;
+}
+
+.photo1 {
+    width: 30%;
+    max-height: 100% !important;
+    border-radius: 10px;
+}
+
+.gif1 {
+    width: 60%;
+    border-radius: 10px;
+
+}
+
+a {
+    text-decoration: none;
+    color: #3b7aa2;
+    font-weight: bold;
+}
+
+.intro p {
+    color: #6a7083;
+    font-size: 1.3em;
+    line-height: 1.5;
+    font-weight: 400;
+}
+
+.highlight {
+    color: #3b7aa2;
+}
+
+.quick-facts {
+    font-weight: 400;
+
+    margin-top: 30px;
+}
+
+.quick-facts h2 {
+    color: #3b7aa2;
+    margin-bottom: 10px;
+}
+
+.quick-facts ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.quick-facts ul li {
+    margin-bottom: 10px;
+    font-size: 1.3em;
+    color: #6a7083;
+
+}
+
+.quick-facts ul li span {
+    width: 24px;
+    text-align: center;
+    margin-right: 10px;
+    font-size: 1.2em;
+}
+
+.quick-facts a {
+    color: #3b7aa2;
+    text-decoration: none;
+}
+
+
+
+.images {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+}
+
+.images img {
+    max-width: 48%;
+    height: auto;
+    border-radius: 10px;
+}
+
+.ts {
+    color: #3178C6;
+}
+
+.angular {
+    font-size: 1em !important;
+    color: #DD0331;
+}
+
+.react {
+    font-size: 1em !important;
+    color: #61DBFB;
+}
+
+.tools {
+    margin-top: 30px;
+    text-align: left;
+}
+
+.tools h2 {
+    color: #3b7aa2;
+    margin-bottom: 20px;
+}
+
+.icons {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 4px;
+}
+
+.icon {
+    width: 70px;
+    height: 70px;
+    transition: transform 0.3s;
+}
+
+.icon:hover {
+    transform: scale(1.1);
+}

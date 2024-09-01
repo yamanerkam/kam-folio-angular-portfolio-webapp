@@ -133,3 +133,8 @@ button:hover::after {
     align-items: center;
 
 }
+
+.last-paragraph p {
+    color: #6a7083;
+
+}

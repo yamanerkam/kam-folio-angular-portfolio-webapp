@@ -12,6 +12,7 @@
     z-index: 999;
     font-size: 1.2em;
     box-sizing: border-box;
+    backdrop-filter: blur(10px);
 }
 
 .heart {

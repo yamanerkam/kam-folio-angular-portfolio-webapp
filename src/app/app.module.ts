@@ -8,7 +8,6 @@ import { NavbarModule } from './components/navbar/navbar.module';
 import { MenubarModule } from 'primeng/menubar';
 import { AboutComponent } from './pages/about/about.component';
 import { ProjectsComponent } from './pages/projects/projects.component';
-import { UsefulLinksComponent } from './pages/useful-links/useful-links.component';
 import { NotFoundComponent } from './pages/not-found/not-found.component';
 import { FooterModule } from './components/footer/footer.module';
 import { ContactMeModule } from './pages/contact-me/contact-me.module';
@@ -19,7 +18,6 @@ import { HomeModule } from './pages/home/home.module';
     AppComponent,
     AboutComponent,
     ProjectsComponent,
-    UsefulLinksComponent,
     NotFoundComponent,
   ],
   imports: [
