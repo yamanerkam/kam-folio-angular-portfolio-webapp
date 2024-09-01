@@ -1,0 +1,13 @@
+.cards {
+    display: flex;
+    margin-top: 30px;
+}
+
+app-project-card {
+    padding: 20px;
+    transition: transform 0.2s ease-in-out;
+}
+
+app-project-card:hover {
+    transform: translateY(-5px);
+}
