@@ -5,21 +5,18 @@
     text-align: left;
 }
 
-.hero-content {
-    max-width: 700px;
-    margin: 0 auto;
-}
+.hero-content {}
 
 .hero-content h1 {
-    font-size: 3em;
+    font-size: 4rem;
     font-weight: bold;
-    margin-bottom: 20px;
+    margin-bottom: 2rem;
     color: #424655;
-    /* Dark color for better contrast on white */
+
 }
 
 .hero-content span {
-    font-size: 2em;
+    font-size: 3rem;
     font-weight: 700;
     color: #a3a3a3;
     margin-bottom: 20px;
@@ -29,14 +26,14 @@
     display: inline-block;
     vertical-align: baseline;
     color: #3b7aa2;
-    font-size: 2em;
+    font-size: 2.5rem;
     font-weight: 700;
 }
 
 .hero-content p {
-    font-size: 1.2em;
+    font-size: 1.5rem;
     margin-bottom: 40px;
-    color: #424655;
+    color: #6a7083;
     /* Slightly lighter than the header for subtlety */
 }
 
