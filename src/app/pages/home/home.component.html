@@ -1,9 +1,17 @@
 <div class="hero-section">
     <div class="hero-content">
         <h1>Engineering the digital world from end to end.</h1>
-        <h2>Erkam Yaman, <span class="highlight">Your Specialty</span></h2>
-        <p>I am a developer with X years of experience in building software. I leverage my fluency in
-            [languages/technologies] and coding skills to craft accessible, scalable, and high-performance applications.
+
+        <ngx-typed-js
+            [strings]="['\nComputer Engineer', '\nSoftware Developer' ,'\nFront-end Developer', '\nJavaScript Enthusiast']"
+            [typeSpeed]="50" [backSpeed]="100" [backDelay]="2000" [loop]="true">
+            <span>Erkam Yaman, </span>
+            <div class="typing"></div>
+        </ngx-typed-js>
+
+
+        <p>I am a developer with 2 years of experience in building software. I leverage my fluency in
+            English and coding skills to craft accessible, scalable, and high-performance applications.
         </p>
         <a href="/projects" class="btn-primary">> Check Projects</a>
     </div>
