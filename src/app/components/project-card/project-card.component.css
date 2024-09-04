@@ -53,21 +53,16 @@
     align-items: start;
 }
 
-.featured-project {
-    color: #232323;
-    font-size: 0.9rem;
-    margin-bottom: 0.5rem;
-}
 
 .card-title {
-    color: #bb1515;
+    color: #3b7ba3;
     font-size: 1.5rem;
     margin-bottom: 1rem;
 }
 
 .description.left {
     font-size: 1rem;
-    color: #a5c7ff;
+    color: #a3a3a3;
     line-height: 1.5;
     margin-bottom: 1.5rem;
     text-align: end;
@@ -75,14 +70,14 @@
 
 .description.right {
     font-size: 1rem;
-    color: #a5c7ff;
+    color: #a3a3a3;
     line-height: 1.5;
     margin-bottom: 1.5rem;
     text-align: start;
 }
 
 .tags {
-    color: #a5c7ff;
+    color: #A3973B;
     font-size: 0.9rem;
     margin-bottom: 1.5rem;
 }
@@ -96,18 +91,18 @@
 
 .icons i {
     font-size: 1.5rem;
-    color: #2ebac6;
+    color: black;
     cursor: pointer;
     transition: color 0.3s ease;
 
 }
 
 .icons i:hover {
-    color: #a5c7ff;
+    color: #a3a3a3;
 }
 
 a {
-    color: #2ebac6;
+    color: #3b7ba3;
     text-decoration: none;
 }
 
