@@ -12,12 +12,12 @@ import { FooterModule } from './components/footer/footer.module';
 import { ContactMeModule } from './pages/contact-me/contact-me.module';
 import { HomeModule } from './pages/home/home.module';
 import { ProjectsModule } from './pages/projects/projects.module';
+import { NotFoundModule } from './pages/not-found/not-found.module';
 
 @NgModule({
   declarations: [
     AppComponent,
     AboutComponent,
-    NotFoundComponent,
   ],
   imports: [
     BrowserModule,
@@ -27,7 +27,8 @@ import { ProjectsModule } from './pages/projects/projects.module';
     FooterModule,
     ContactMeModule,
     HomeModule,
-    ProjectsModule
+    ProjectsModule,
+    NotFoundModule
   ],
   providers: [],
   bootstrap: [AppComponent]
