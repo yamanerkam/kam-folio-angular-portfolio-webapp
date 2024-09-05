@@ -1,0 +1,31 @@
+{
+    "projects": [
+        {
+            "leftRight": "left",
+            "imgSrc": "../../../assets/appo.png",
+            "description": "A project that showcases a dynamic portfolio with responsive design.",
+            "title": "Portfolio Website",
+            "tags": "HTML, CSS, JavaScript",
+            "githubLink": "https://www.github.com",
+            "liveLink": "https://portfolio-website.com"
+        },
+        {
+            "leftRight": "right",
+            "imgSrc": "../../../assets/appo.png",
+            "description": "An e-commerce platform for selling digital products.",
+            "title": "E-Commerce App",
+            "tags": "React, Node.js, MongoDB",
+            "githubLink": "https://www.github.com",
+            "liveLink": "https://ecommerce-app.com"
+        },
+        {
+            "leftRight": "left",
+            "imgSrc": "../../../assets/appo.png",
+            "description": "A blog platform with a rich text editor and user authentication.",
+            "title": "Blog Platform",
+            "tags": "Angular, Firebase, TypeScript",
+            "githubLink": "https://www.github.com",
+            "liveLink": "https://blog-platform.com"
+        }
+    ]
+}
