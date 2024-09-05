@@ -1,35 +1,27 @@
 <div class='navbar'>
-
     <div class='main-part'>
-        <h1>KAM</h1>
-        <div class="pages">
-
-            <a routerLink="/">
-                Home
-            </a>
-
-
-            <a routerLink="/about">
-                About
-            </a>
-
-            <a routerLink="/projects">
-                Projects
-            </a>
-
-            <a target="_blank" href="https://github.com/yamanerkam/useful-links">
-                Useful Links
-            </a>
-
-            <a routerLink="/contact-me">
-                Contact Me
-            </a>
-
-        </div>
+      <h1>KAM</h1>
+      <div class="pages" *ngIf="!isMobileMenu">
+        <a routerLink="/">Home</a>
+        <a routerLink="/about">About</a>
+        <a routerLink="/projects">Projects</a>
+        <a target="_blank" href="https://github.com/yamanerkam/useful-links">Useful Links</a>
+        <a routerLink="/contact-me">Contact Me</a>
+      </div>
     </div>
-
-
-    <i class="btn pi pi-moon" style="color: #2d5f87; font-size: 1.5rem;"></i>
-
-
-</div>
+  
+    <i class="night btn pi pi-moon" style="color: #2d5f87; font-size: 1.5rem;"></i>
+  
+    <!-- Mobile Dropdown Toggle -->
+    <div  class="dropdown-icon" (click)="toggleDropdown()">KAM</div>
+  </div>
+  
+  <!-- Mobile Dropdown Menu -->
+  <div *ngIf="isMobileMenu" class="dropdown-menu">
+    <a routerLink="/" (click)="toggleDropdown()">Home</a>
+    <a routerLink="/about" (click)="toggleDropdown()">About</a>
+    <a routerLink="/projects" (click)="toggleDropdown()">Projects</a>
+    <a target="_blank" href="https://github.com/yamanerkam/useful-links" (click)="toggleDropdown()">Useful Links</a>
+    <a routerLink="/contact-me" (click)="toggleDropdown()">Contact Me</a>
+    <i class="night btn pi pi-moon" style="color: #2d5f87; font-size: 1.5rem;"></i>
+  </div>
