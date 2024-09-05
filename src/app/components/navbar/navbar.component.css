@@ -16,6 +16,8 @@
 }
 
 .dropdown-icon {
+    color: #3b7aa2;
+    font-weight: 900;
     display: none;
 }
 
@@ -72,6 +74,7 @@
     }
 
     .dropdown-icon {
+
         display: block;
         font-size: 1.5em;
         cursor: pointer;
