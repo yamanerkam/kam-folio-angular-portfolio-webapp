@@ -13,10 +13,11 @@
     left: 0;
     width: 100%;
     text-align: center !important;
-    display: flex;
-    padding-bottom: 30px;
 }
 
+.dropdown-icon {
+    display: none;
+}
 
 .main-part {
     display: flex;
@@ -25,19 +26,16 @@
     align-items: center;
 }
 
-
 .navbar h1 {
     font-size: 1.75em;
     font-weight: 900;
     color: #3b7aa2;
 }
 
-
 .pages {
     gap: 30px;
     display: flex;
     margin-right: 20px;
-
 }
 
 .pages a {
@@ -63,83 +61,53 @@
     width: 100%;
 }
 
-.content {
-    display: flex;
-    flex-direction: row;
-    gap: 5px;
-}
-
-
 @media (max-width: 768px) {
     .navbar {
-        /* Decrease font size */
-        padding-top: 10px;
-        /* Adjust padding */
-        padding-bottom: 5px;
-        /* Adjust padding */
+        margin: 0;
+        padding: 0;
     }
 
-    .navbar h1 {
+    .main-part {
+        display: none;
+    }
+
+    .dropdown-icon {
+        display: block;
         font-size: 1.5em;
-        /* Decrease font size */
+        cursor: pointer;
     }
 
-    .pages {
-        margin-right: 10px;
-        gap: 20px;
+    .dropdown-menu {
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+        padding-top: 20px;
+        text-align: center;
+        background-color: #f0f0f0;
     }
 
-
+    .night {
+        display: none;
+    }
 }
 
 @media (max-width: 480px) {
+
     .navbar {
-        font-size: 1em;
-        /* Further decrease font size */
-        padding-top: 5px;
-        /* Further adjust padding */
-        padding-bottom: 2px;
-        /* Further adjust padding */
+        margin: 0;
+        padding: 0;
     }
 
-    .navbar h1 {
+    .night {
+        display: none;
+    }
+
+    .main-part {
+        display: none;
+    }
+
+    .dropdown-icon {
+        display: block;
         font-size: 1.25em;
-        /* Further decrease font size */
-    }
-
-    .pages {
-        gap: 20px;
-        margin-right: 5px;
-        /* Further adjust margin */
-    }
-
-}
-
-.btn {
-    padding: 0;
-    margin-top: -12px;
-    cursor: pointer;
-    transition: background-color 0.3s ease, transform 0.2s ease;
-}
-
-
-
-.btn:active {
-    transform: scale(1);
-}
-
-@media (max-width: 768px) {
-    .btn {
-        margin-top: 0;
-        font-size: 0.9em;
-        /* Adjust font size for smaller screens */
-    }
-}
-
-@media (max-width: 480px) {
-    .btn {
-        margin-top: 0;
-        font-size: 0.8em;
-        /* Further adjust font size for smaller screens */
     }
 }
