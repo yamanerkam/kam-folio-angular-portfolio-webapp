@@ -1,41 +1,41 @@
-<div class="card-container">
-    <!-- Card with image on the left -->
-    <div class="card">
-      <div class="image-section">
-        <img src="../../../assets/ss.png" alt="Halcyon Theme">
-      </div>
-      <div class="card-content left">
-        <h3 class="card-title">Halcyon Theme</h3>
-        <p class="description left">
-          A minimal, dark blue theme for VS Code, Sublime Text, Atom, iTerm, and more.
-          Available on <a href="#">Visual Studio Marketplace</a>, <a href="#">Package Control</a>,
-          <a href="#">Atom Package Manager</a>, and <a href="#">npm</a>.
-        </p>
-        <p class="tags">VS Code Sublime Text Atom iTerm2 Hyper</p>
-        <div class="icons">
-          <i class="pi pi-github"></i>
-          <i class="pi pi-external-link"></i>
-        </div>
-      </div>
+<div *ngIf="leftRight === 'left'; then leftTemplate else rightTemplate"></div>
+
+<ng-template #leftTemplate>
+  <div class="card">
+    <div class="image-section">
+      <img src="../../../assets/ss.png">
     </div>
-  
-    <!-- Card with image on the right -->
-    <div class="card card-reverse">
-      <div class="card-content right">
-        <h3 class="card-title">Spotify Profile</h3>
-        <p class="description right">
-          A web app for visualizing personalized Spotify data. View your top artists, 
-          top tracks, recently played tracks, and detailed audio information about each track.
-        </p>
-        <p class="tags">React Styled Components Express Spotify API Heroku</p>
-        <div class="icons">
-          <i class="pi pi-github"></i>
-          <i class="pi pi-external-link"></i>
-        </div>
-      </div>
-      <div class="image-section">
-        <img src="../../../assets/ss.png" alt="Spotify Profile">
+    <div class="card-content left">
+      <h3 class="card-title">{{title}}</h3>
+      <p class="description left">
+        {{description}}
+      </p>
+      <p class="tags">{{tags}}</p>
+      <div class="icons">
+        <a target="_blank" [href]="githubLink"> <i class="pi pi-github"></i></a>
+        <a [href]="liveLink" target="_blank"><i class="pi pi-external-link"></i></a>      
       </div>
     </div>
   </div>
-  
+</ng-template>
+
+<ng-template #rightTemplate>
+
+  <div class="card card-reverse">
+    <div class="card-content right">
+      <h3 class="card-title">{{title}}</h3>
+      <p class="description right">
+        {{description}}
+      </p>
+      <p class="tags">{{tags}}</p>
+      <div class="icons">
+        <a target="_blank" [href]="githubLink"> <i class="pi pi-github"></i></a>       
+        <a [href]="liveLink" target="_blank"><i class="pi pi-external-link"></i></a>      
+      </div>
+    </div>
+    <div class="image-section">
+      <img src="../../../assets/ss.png" alt="Spotify Profile">
+    </div>
+  </div>
+
+</ng-template>

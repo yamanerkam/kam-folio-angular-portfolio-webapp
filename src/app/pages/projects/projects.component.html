@@ -1,1 +1,13 @@
-<app-project-card></app-project-card>
+<div class="card-container">
+
+        <app-project-card *ngFor="let project of dataArray" 
+        [leftRight]="project.leftRight" 
+        [description]="project.description"
+        [title]="project.title"
+        [tags]="project.tags"
+        [githubLink]="project.githubLink"
+        [liveLink]="project.liveLink"
+        >
+    </app-project-card>
+
+</div>
