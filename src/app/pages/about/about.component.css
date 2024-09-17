@@ -126,3 +126,92 @@ a {
 .icon:hover {
     transform: scale(1.1);
 }
+
+/* Responsive styles for tablets */
+@media (max-width: 768px) {
+    .intro h1 {
+        font-size: 1.8em;
+        margin-bottom: 8px;
+    }
+
+    .photo1 {
+        width: 40%;
+        display: block;
+        margin: 0 auto;
+    }
+
+    .gif1 {
+        width: 45%;
+    }
+
+    .intro p {
+        font-size: 1.2em;
+        line-height: 1.4;
+    }
+
+    .quick-facts ul li {
+        font-size: 1.2em;
+    }
+
+    .icon {
+        width: 60px;
+        height: 60px;
+    }
+}
+
+/* Responsive styles for mobile phones */
+@media (max-width: 480px) {
+    .about-container {
+        padding: 15px;
+    }
+
+    .intro h1 {
+        font-size: 1.5em;
+        margin-bottom: 6px;
+        text-align: center;
+    }
+
+    .photo1 {
+        width: 40%;
+        display: block;
+        margin: 0 auto;
+    }
+
+    .gif1 {
+        width: 100%;
+        margin-bottom: 15px;
+    }
+
+    .intro p {
+        font-size: 1.1em;
+        line-height: 1.4;
+        text-align: center;
+    }
+
+    .quick-facts {
+        margin-top: 20px;
+    }
+
+    .quick-facts h2 {
+        font-size: 1.5em;
+        text-align: center;
+    }
+
+    .quick-facts ul li {
+        font-size: 1em;
+        text-align: left;
+    }
+
+    .tools {
+        text-align: center;
+    }
+
+    .icons {
+        justify-content: center;
+    }
+
+    .icon {
+        width: 50px;
+        height: 50px;
+    }
+}
