@@ -65,3 +65,54 @@ a::after {
 a:hover::after {
     transform: scaleX(1);
 }
+
+/* Responsive styles for tablets */
+@media (max-width: 768px) {
+    .hero-content h1 {
+        font-size: 2.5rem;
+        margin-bottom: 1.2rem;
+    }
+
+    .hero-content span,
+    .typing {
+        font-size: 2rem;
+    }
+
+    .hero-content p {
+        font-size: 1.1rem;
+        margin-bottom: 25px;
+    }
+
+    a {
+        padding: 10px 16px;
+        font-size: 1rem;
+    }
+}
+
+/* Responsive styles for mobile phones */
+@media (max-width: 480px) {
+    .hero-section {
+        padding: 60px 15px;
+        text-align: center;
+    }
+
+    .hero-content h1 {
+        font-size: 2rem;
+        margin-bottom: 1rem;
+    }
+
+    .hero-content span,
+    .typing {
+        font-size: 1.8rem;
+    }
+
+    .hero-content p {
+        font-size: 1rem;
+        margin-bottom: 20px;
+    }
+
+    a {
+        padding: 8px 14px;
+        font-size: 0.9rem;
+    }
+}
